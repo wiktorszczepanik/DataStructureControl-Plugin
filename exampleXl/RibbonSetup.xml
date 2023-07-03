@@ -1,0 +1,37 @@
+<mso:cmd app="Excel" />
+<mso:customUI>
+  <mso:ribbon>
+    <mso:qat />
+    <mso:tabs>
+      <mso:tab id="dataStructureControl" label="DSC">
+        <mso:group label="Create Dependencies" autoScale="true">
+          <mso:button
+            label="Workspace" imageMso="CopyFolder"
+            visible="true" />
+          <mso:button
+            label="Template" imageMso="FileNew"
+            visible="true" />
+        </mso:group>
+        <mso:group label="Template Setup" autoScale="true">
+          <mso:button
+            label="Hard Value" imageMso="AppointmentColor1"
+            visible="true" />
+          <mso:button
+            label="Disregard Value" imageMso="AppointmentColor2"
+            visible="true" />
+        </mso:group>
+        <mso:group label="File Control" autoScale="true">
+          <mso:button
+            label="Manual Check" imageMso="ResultsPaneStartFindAndReplace"
+            visible="true" />
+          <mso:button
+            label="Clear Errors" imageMso="RecordsRefreshMenu"
+            visible="true" />
+          <mso:button
+            label="Multi Data Compare" imageMso="SlidesPerPage9Slides"
+            visible="true" />
+        </mso:group>
+      </mso:tab>
+    </mso:tabs>
+  </mso:ribbon>
+</mso:customUI>
