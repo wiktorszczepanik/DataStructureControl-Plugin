@@ -1,9 +1,10 @@
 # DataStructureControl-Plugin
-Excel plugin for comparing data in ***.xlsx*** format.
+
+The foundation of the plugin involves preparing template file, which is then converted to ***.xlcg*** format in the final stage. During the preparation process, both unchangeable (hard) values and values that can be disregarded by macros can be added. 
 
 ![alt text](exampleXl/ribbon.png?raw=true)
 
-The foundation of the plugin involves preparing template file, which is then converted to ***.xlcg*** format in the final stage. During the preparation process, both unchangeable (hard) values and values that can be disregarded by macros can be added. Once the file is created, it can be compared to a selected ***.xlsx*** file on a (1:1) basis or processed for multi-comparison through a GUI system (1:N).
+Once the file is created, it can be compared to a selected ***.xlsx*** file on a (1:1) basis or processed for multi-comparison through a GUI system (1:N).
 
 ![alt text](exampleXl/gui.png?raw=true)
 
